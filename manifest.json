@@ -1,0 +1,13 @@
+{
+    "name": "GitHub Tab Fix",
+    "description": "append ts=4 get param to every GitHub Pages",
+    "version": "1.0",
+    "manifest_version": 2,
+    "background": {"scripts":["background.js"]},
+    "permissions": [
+        "webRequest",
+        "*://github.com/*",
+        "*://www.github.com/*",
+        "webRequestBlocking"
+    ]
+}
